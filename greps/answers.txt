@@ -12,11 +12,20 @@ grep "meow"  forest/filescan_00.3 > captured/meowchu.txt
 grep "chu" forest/filescan_00.3 > captured/Pikachu.txt
 grep "uck" forest/filescan_00.4 > captured/psyduck.txt
 grep "squi" forest/filescan_00.4 > captured/squirtle.txt
+grep "ven" forest/filescan_00.4 > captured/venusaur.txt
+grep "art" forest/filescan_00.4 > captured/wartortle.txt
+
+
+grep "tle" forest/filescan_00.4 > captured/wartortle.txt
+
+//to show understanding... it is interesting that if I type tle since warturtle and squirtle share tle you get a morphered version lol
 
 
 
 
 ### b)
+
+
 
 
 
