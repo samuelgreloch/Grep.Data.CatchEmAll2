@@ -24,34 +24,63 @@ grep "tle" forest/filescan_00.4 > captured/wartortle.txt
 
 
 ### b)
-
-
+captured/beedrill.txt
+captured/blastoise.txt
+captured/bulbasaur.txt
+captured/butterfree.txt
+captured/charizard.txt
+captured/charmander.txt
+captured/ivysaur.txt
+captured/jigglypuff.txt
+captured/meowchu.txt
+captured/Pikachu.txt
+captured/psyduck.txt
+captured/squirtle.txt
+captured/venusaur.txt
+captured/wartortle.txt
 
 
 
 ### c)
 
-
-
-
-
-
-
-
-
-
-
+"beed" forest/filescan_00.1
+"blas" forest/filescan_00.1
+"bulb"  forest/filescan_00.1
+"butt"  forest/filescan_00.1
+"izard"  forest/filescan_00.2
+"mander" forest/filescan_00.2
+"ivys"  forest/filescan_00.3
+"jigg"  forest/filescan_00.3
+"meow"  forest/filescan_00.3
+"chu" forest/filescan_00.3
+"uck" forest/filescan_00.4
+"squi" forest/filescan_00.4
+"ven" forest/filescan_00.4
+"art" forest/filescan_00.4
 
 
 # Part 2
 ### a)
 
+ggrep -P "(whatever your pattern is)" [whatever your file is])
 
+ggrep -P "beed" firest/filescan_00.1
 
+I could not use the formula so I just found this
+grep -o "beed\|blas\|bulb\|butt" forest/filescan_00.1 | sort | uniq | wc -l
+This came out as 4
+
+grep -o "beed\|blas\|bulb\|butt" forest/filescan_00.1 | wc -l
+
+I was able to get 146 but that is the number of lines that contain one instance of the words
 
 
 
 ### b)
+
+grep -o "beed\|blas\|bulb\|butt" forest/filescan_00.1 | sort | uniq -c | sort -nr | head -n 3
+
+I got 40 beed, 38 butt, 38 blas
 
 
 
